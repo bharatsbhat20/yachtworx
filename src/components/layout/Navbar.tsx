@@ -161,7 +161,7 @@ export const Navbar: React.FC = () => {
                 key={to}
                 to={to}
                 className={clsx(
-                  'flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors',
+                  'flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors whitespace-nowrap',
                   location.pathname === to
                     ? 'bg-white/15 text-white'
                     : 'text-white/70 hover:text-white hover:bg-white/10'
