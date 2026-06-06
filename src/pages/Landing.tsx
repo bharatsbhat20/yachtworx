@@ -183,6 +183,13 @@ export const Landing: React.FC = () => {
               >
                 Wood Boats →
               </Link>
+              <span className="w-px h-4 bg-white/20" />
+              <Link
+                to="/liveaboard"
+                className="text-teal-300 hover:text-teal-200 transition-colors whitespace-nowrap font-semibold"
+              >
+                Liveaboard →
+              </Link>
             </div>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-heading font-bold text-white leading-tight mb-6">
               Yacht management on{' '}
