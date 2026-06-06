@@ -171,6 +171,13 @@ export const Landing: React.FC = () => {
               </Link>
               <span className="w-px h-4 bg-white/20" />
               <Link
+                to="/hull-cleaning"
+                className="text-teal-300 hover:text-teal-200 transition-colors whitespace-nowrap font-semibold"
+              >
+                Hull Cleaning →
+              </Link>
+              <span className="w-px h-4 bg-white/20" />
+              <Link
                 to="/wood-boats"
                 className="text-teal-300 hover:text-teal-200 transition-colors whitespace-nowrap font-semibold"
               >

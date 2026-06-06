@@ -24,6 +24,7 @@ import { AgentDashboard } from './pages/AgentDashboard';
 import { WoodBoats } from './pages/WoodBoats';
 import { Surveyors } from './pages/Surveyors';
 import { Haulouts } from './pages/Haulouts';
+import { HullCleaning } from './pages/HullCleaning';
 import { useAuthStore } from './store/authStore';
 
 const noNavbarRoutes = ['/auth', '/register-provider', '/admin'];
@@ -61,6 +62,7 @@ const AppContent: React.FC = () => {
           <Route path="/wood-boats" element={<WoodBoats />} />
           <Route path="/surveyors" element={<Surveyors />} />
           <Route path="/haulouts" element={<Haulouts />} />
+          <Route path="/hull-cleaning" element={<HullCleaning />} />
           <Route path="/auth" element={<AuthPage />} />
           <Route path="/register-provider" element={<ProviderRegistration />} />
 
