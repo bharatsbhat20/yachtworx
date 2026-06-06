@@ -22,6 +22,7 @@ import { InsuranceMarketplace } from './pages/InsuranceMarketplace';
 import { InsurerDashboard } from './pages/InsurerDashboard';
 import { AgentDashboard } from './pages/AgentDashboard';
 import { WoodBoats } from './pages/WoodBoats';
+import { Surveyors } from './pages/Surveyors';
 import { useAuthStore } from './store/authStore';
 
 const noNavbarRoutes = ['/auth', '/register-provider', '/admin'];
@@ -57,6 +58,7 @@ const AppContent: React.FC = () => {
           <Route path="/" element={<Landing />} />
           <Route path="/for-providers" element={<ProviderLanding />} />
           <Route path="/wood-boats" element={<WoodBoats />} />
+          <Route path="/surveyors" element={<Surveyors />} />
           <Route path="/auth" element={<AuthPage />} />
           <Route path="/register-provider" element={<ProviderRegistration />} />
 

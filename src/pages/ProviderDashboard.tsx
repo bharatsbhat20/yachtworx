@@ -5,7 +5,7 @@ import {
   DollarSign, Star, Briefcase, TrendingUp, Clock, CheckCircle,
   AlertCircle, Shield, FileText, MapPin, Image, Bell, Settings,
   ExternalLink, ChevronRight, RefreshCw, BarChart2, MessageSquare,
-  Sparkles,
+  Sparkles, Award, ArrowRight,
 } from 'lucide-react';
 import { useAuthStore } from '../store/authStore';
 import { useProviderOnboardingStore } from '../store/providerOnboardingStore';
@@ -611,6 +611,30 @@ export default function ProviderDashboard() {
 
             </motion.div>
           </div>
+        </div>
+      </div>
+
+      {/* Surveyors CTA banner */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+        <div className="rounded-2xl bg-gradient-to-r from-navy-500 to-ocean-600 p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-4">
+            <div className="p-3 bg-white/10 rounded-xl flex-shrink-0">
+              <Award className="w-6 h-6 text-teal-300" />
+            </div>
+            <div>
+              <p className="font-heading font-bold text-white text-lg">Are you a Marine Surveyor?</p>
+              <p className="text-white/60 text-sm mt-0.5">
+                Learn how Yachtworx connects surveyors with qualified leads, escrow-backed payment, and integrated report delivery.
+              </p>
+            </div>
+          </div>
+          <Link
+            to="/surveyors"
+            className="flex-shrink-0 inline-flex items-center gap-2 bg-white text-navy-600 font-semibold px-6 py-3 rounded-xl hover:bg-white/90 transition-colors text-sm whitespace-nowrap"
+          >
+            Surveyors click here
+            <ArrowRight className="w-4 h-4" />
+          </Link>
         </div>
       </div>
 
