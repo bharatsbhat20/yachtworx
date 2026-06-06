@@ -338,7 +338,7 @@ export const Haulouts: React.FC = () => {
             className="rounded-2xl overflow-hidden shadow-2xl"
           >
             <img
-              src="https://images.unsplash.com/photo-1622022635807-c7f6a7d2e4cd?w=800&q=80"
+              src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
               alt="Boat on travel lift in boatyard"
               className="w-full h-96 object-cover"
             />
