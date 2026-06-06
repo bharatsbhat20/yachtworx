@@ -368,8 +368,8 @@ export const HullCleaning: React.FC = () => {
             className="rounded-2xl overflow-hidden shadow-2xl"
           >
             <img
-              src="https://images.pexels.com/photos/3796217/pexels-photo-3796217.jpeg?auto=compress&cs=tinysrgb&w=800&h=500&fit=crop"
-              alt="Diver cleaning a boat hull underwater"
+              src="https://images.unsplash.com/photo-1708023987502-476c3db22373?w=800&q=80"
+              alt="Man working on a large boat hull in dry dock"
               className="w-full h-96 object-cover"
             />
           </motion.div>
