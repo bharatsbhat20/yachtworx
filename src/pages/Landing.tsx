@@ -164,6 +164,13 @@ export const Landing: React.FC = () => {
               Now serving 12,400+ vessels in 48 states
               <span className="w-px h-4 bg-white/20" />
               <Link
+                to="/haulouts"
+                className="text-teal-300 hover:text-teal-200 transition-colors whitespace-nowrap font-semibold"
+              >
+                Haulouts →
+              </Link>
+              <span className="w-px h-4 bg-white/20" />
+              <Link
                 to="/wood-boats"
                 className="text-teal-300 hover:text-teal-200 transition-colors whitespace-nowrap font-semibold"
               >
