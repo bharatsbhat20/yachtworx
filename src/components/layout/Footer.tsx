@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Anchor, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Anchor, Twitter, Linkedin, Instagram, Mail } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -91,15 +91,7 @@ export const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2.5 text-sm text-white/60">
                 <Mail size={14} className="text-teal-400 flex-shrink-0" />
-                hello@yachtworx.io
-              </li>
-              <li className="flex items-center gap-2.5 text-sm text-white/60">
-                <Phone size={14} className="text-teal-400 flex-shrink-0" />
-                +1 (310) 555-0127
-              </li>
-              <li className="flex items-start gap-2.5 text-sm text-white/60">
-                <MapPin size={14} className="text-teal-400 flex-shrink-0 mt-0.5" />
-                1234 Harbor Blvd, Suite 500<br />Marina del Rey, CA 90292
+                yachtworxteam@gmail.com
               </li>
             </ul>
           </div>
