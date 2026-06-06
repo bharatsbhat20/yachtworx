@@ -21,6 +21,7 @@ import { InsuranceWallet } from './pages/InsuranceWallet';
 import { InsuranceMarketplace } from './pages/InsuranceMarketplace';
 import { InsurerDashboard } from './pages/InsurerDashboard';
 import { AgentDashboard } from './pages/AgentDashboard';
+import { WoodBoats } from './pages/WoodBoats';
 import { useAuthStore } from './store/authStore';
 
 const noNavbarRoutes = ['/auth', '/register-provider', '/admin'];
@@ -55,6 +56,7 @@ const AppContent: React.FC = () => {
           {/* Public */}
           <Route path="/" element={<Landing />} />
           <Route path="/for-providers" element={<ProviderLanding />} />
+          <Route path="/wood-boats" element={<WoodBoats />} />
           <Route path="/auth" element={<AuthPage />} />
           <Route path="/register-provider" element={<ProviderRegistration />} />
 
