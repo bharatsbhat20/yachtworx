@@ -338,8 +338,8 @@ export const Haulouts: React.FC = () => {
             className="rounded-2xl overflow-hidden shadow-2xl"
           >
             <img
-              src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80"
-              alt="Boat on travel lift in boatyard"
+              src="https://images.unsplash.com/photo-1642909070806-f73e3595e52a?w=800&q=80"
+              alt="Boat being towed on a trailer"
               className="w-full h-96 object-cover"
             />
           </motion.div>
